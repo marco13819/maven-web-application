@@ -95,25 +95,25 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://18.217.205.162:8081/repository/city-release/</url>
+	      <url>http://3.129.216.52:8081/repository/Joshua-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.217.205.162:8081/repository/city-snapshot/</url>
+	      <url>http://3.129.216.52:8081/repository/Joshua-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>tesla</finalName>
+		<finalName>Joshua-build</finalName>
 		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.3</version>
+				<version>3.8.6</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
