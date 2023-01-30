@@ -94,14 +94,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>app1-release</name>
-	      <url>http://3.145.156.89:8081/repository/app1-release/</url>
+	      <name>sample-release</name>
+	      <url>http://3.144.90.65:8081/repository/sample-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>app1-snapshot</name>
-	      <url>http://3.145.156.89:8081/repository/app1-snapshot/</url>
+	      <name>sample-snapshot</name>
+	      <url>http://3.144.90.65:8081/repository/sample-snap/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
